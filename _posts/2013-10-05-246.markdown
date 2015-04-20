@@ -1,0 +1,26 @@
+---
+layout: nav_menu_item
+redirect_from:
+  - 2013/10/05/246/
+
+status: publish
+published: true
+author:
+  display_name: fernando
+  login: fernando
+  email: 
+  url: http://fernandoipar.com
+author_login: fernando
+author_email: 
+author_url: http://fernandoipar.com
+wordpress_id: 246
+wordpress_url: http://fernandoipar.com/?p=246
+date: !binary |-
+  MjAxMy0xMC0wNSAxMDo1MzozNCAtMDMwMA==
+date_gmt: !binary |-
+  MjAxMy0xMC0wNSAxMzo1MzozNCAtMDMwMA==
+categories: []
+tags: []
+comments: []
+---
+

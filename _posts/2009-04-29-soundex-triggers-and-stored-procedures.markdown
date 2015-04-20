@@ -1,0 +1,179 @@
+---
+layout: post
+redirect_from:
+  - 2009/04/29/soundex-triggers-and-stored-procedures/
+
+status: publish
+published: true
+title: SOUNDEX(), triggers, and stored procedures
+author:
+  display_name: fernando
+  login: fernando
+  email: 
+  url: http://fernandoipar.com
+author_login: fernando
+author_email: 
+author_url: http://fernandoipar.com
+wordpress_id: 166
+wordpress_url: http://fernandoipar.com/?p=166
+date: !binary |-
+  MjAwOS0wNC0yOSAyMToxNDo1MSAtMDMwMA==
+date_gmt: !binary |-
+  MjAwOS0wNC0yOSAyMzoxNDo1MSAtMDMwMA==
+categories:
+- Programming
+- MySQL
+tags:
+- Programming
+- MySQL
+- SQL
+comments:
+- id: 56
+  author: ! 'Log Buffer #145: a Carnival of the Vanities for DBAs | Pythian Group
+    Blog'
+  author_email: ''
+  author_url: http://www.pythian.com/news/2393/log-buffer-145-a-carnival-of-the-vanities-for-dbas
+  date: !binary |-
+    MjAwOS0wNS0wOCAxNDo0NTowMiAtMDMwMA==
+  date_gmt: !binary |-
+    MjAwOS0wNS0wOCAxNjo0NTowMiAtMDMwMA==
+  content: ! '[...] Ipar looked into SOUNDEX(), triggers, and stored procedures, beginning,
+    &#8220;&nbsp;.&nbsp;.&nbsp;.&nbsp;If you’re storing multiple-word strings, things
+    get [...]'
+---
+<p>MySQL provides a SOUNDEX() function, which returns the soundex of a given string. For details, refer to the <a href="http://dev.mysql.com/doc/refman/5.0/en/string-functions.html#function_soundex">manual</a>, but to put it simply, it allows you to compare strings based on how they sound, hence letting you do proximity searches on your database.</p>
+<p>If you're just querying for a word, it's usage is pretty straightforward, and in fact, you can use the SOUNDS LIKE operator to build expressions such as this:</p>
+<blockquote><p>SELECT <em>expr</em> FROM <em>table expr</em> WHERE <em>field0 </em>SOUNDS LIKE <em>'inputWord'</em></p></blockquote>
+<p>However, if you're storing multiple-word strings, things get a little more complicated, since they can't be compared by their soundex. Rather, the soundex returned will be associated with the whole phrase. If at a later time, you want to search for a subpart of this phrase, there's no way for you to do this.</p>
+<p>Well, at least not directly, but by using an auxiliary table to store soundex strings, a couple of stored procedures, and a trigger, it can be done with little effort to programmers that use the database.</p>
+<p>Let's assume we have a very simple table called <em>soundex_text</em> with the following structure:</p>
+<pre>create table if not exists soundex_text (
+	id int unsigned not null auto_increment primary key,
+	description text
+) Engine = Innodb;</pre>
+<p>The field we want to query by proximity is <em>description</em>, therefore we create the following auxiliary table to store soundex values:</p>
+<pre>create table if not exists soundex_text_index (
+	soundex_text_id int unsigned not null references soundex_text(id),
+	soundex char(4)
+) Engine = Innodb;</pre>
+<p>We now create a stored procedure and a trigger to populate the auxiliary table automatically every time a row is inserted in the main table.</p>
+<pre>-- adapted from example at http://forums.mysql.com/read.php?60,78776,242420#msg-242420
+-- posted by jim smith: http://forums.mysql.com/profile.php?60,3154903
+CREATE PROCEDURE update_soundex_text_index (sStringIn text,splitChar varchar(1), soundex_text_id int)
+BEGIN
+DECLARE comma INT DEFAULT 0;
+DECLARE mylist TEXT DEFAULT sStringIn;
+DECLARE temp TEXT DEFAULT '';
+DECLARE strlen int DEFAULT LENGTH(sStringIn);
+DECLARE insert_id int DEFAULT soundex_text_id;
+
+/* find the first instance of the spliting character */
+SET comma = LOCATE(splitChar,mylist);
+/* Insert each split variable into the temp table */
+WHILE strlen &gt; 0 DO
+	IF comma = 0 THEN
+		SET temp = TRIM(mylist);
+		SET mylist = '';
+		SET strlen = 0;
+	END IF;
+	IF comma != 0 THEN
+		SET temp = TRIM(SUBSTRING(mylist,1,comma-1));
+		SET mylist = TRIM(SUBSTRING(mylist FROM comma+1));
+		SET strlen = LENGTH(mylist);
+		-- Sample handling of special chars you might want removed from individual words
+		-- before storing their soundex.
+		SELECT REPLACE(temp,',','') INTO temp;
+		SELECT REPLACE(temp,';','') INTO temp;
+		SELECT REPLACE(temp,':','') INTO temp;
+	END IF;
+	IF temp != '' THEN
+		insert into soundex_text_index (soundex_text_id,soundex) values (insert_id,substring(soundex(temp) from 1 for 4));
+	END IF;
+	SET comma = LOCATE(splitChar,mylist);
+END WHILE;
+
+END//
+
+drop trigger if exists soundex_text_bi//
+create trigger soundex_text_bi
+before insert
+on soundex_text
+for each row
+begin
+	SET @id = last_insert_id();
+	call update_soundex_text_index (NEW.description, ' ', @id);
+end;//
+delimiter ;</pre>
+<p>Finally, a stored procedure to automatically query the table using the auxiliary table implicitly:</p>
+<pre>delimiter //
+create procedure query_soundex_text(sStringIn text, splitChar varchar(1))
+BEGIN
+DECLARE comma INT DEFAULT 0;
+DECLARE mylist TEXT DEFAULT sStringIn;
+DECLARE temp TEXT DEFAULT '';
+DECLARE strlen int DEFAULT LENGTH(sStringIn); 
+
+create temporary table results (id int unsigned, description text);
+
+/* find the first instance of the spliting character */
+SET comma = LOCATE(splitChar,mylist);
+/* Insert each split variable into the temp table */
+WHILE strlen &gt; 0 DO
+	IF comma = 0 THEN
+		SET temp = TRIM(mylist);
+		SET mylist = '';
+		SET strlen = 0;
+	END IF;
+	IF comma != 0 THEN
+		SET temp = TRIM(SUBSTRING(mylist,1,comma-1));
+		SET mylist = TRIM(SUBSTRING(mylist FROM comma+1));
+		SET strlen = LENGTH(mylist);
+		-- Sample handling of special chars you might want removed from individual words
+		-- before storing their soundex.
+		SELECT REPLACE(temp,',','') INTO temp;
+		SELECT REPLACE(temp,';','') INTO temp;
+		SELECT REPLACE(temp,':','') INTO temp;
+	END IF;
+	IF temp != '' THEN
+		insert into results select st.id, st.description from soundex_text st, soundex_text_index sti where sti.soundex = substring(soundex(temp) from 1 for 4);
+	END IF;
+	SET comma = LOCATE(splitChar,mylist);
+END WHILE;
+
+select distinct * from results;
+drop table results;
+
+END//
+delimiter ;</pre>
+<p>Using this is pretty straightforward.<br />
+Just insert some sample data into the table, and give it a shot!:</p>
+<pre>mysql&gt; insert into soundex_text(description) values ('This is a sample text row');
+Query OK, 1 row affected (0.00 sec)
+
+mysql&gt; call query_soundex_text('semple',' ');
++------+---------------------------+
+| id   | description               |
++------+---------------------------+
+|    3 | This is a sample text row |
++------+---------------------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql&gt; call query_soundex_text('THis is a samPLE taxt row',' ');
++------+---------------------------+
+| id   | description               |
++------+---------------------------+
+|    3 | This is a sample text row |
++------+---------------------------+
+1 row in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+mysql&gt; call query_soundex_text('rock',' ');
+Empty set (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)</pre>
+<p>To make it even easier, you could modify the querying stored procedure and always assume that the splitting character is a whitespace.</p>
+<p>You can download a zipfile with a sql script with all this code for you to load into a MySQL database right <a title="Soundex search scripts" href="http://fernandoipar.com/soundex.sql.zip">here</a>.</p>
+<p>Enjoy!</p>
