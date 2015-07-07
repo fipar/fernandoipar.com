@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2015/03/11/ongoing-mysql-myths/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Ongoing MySQL myths
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 337
-wordpress_url: http://fernandoipar.com/?p=337
 date: !binary |-
   MjAxNS0wMy0xMSAwOTo0NTowNyAtMDMwMA==
 date_gmt: !binary |-
@@ -87,7 +81,6 @@ comments:
 - id: 3131
   author: fernando
   author_email: 
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAxNS0wMy0xMSAxNDoyNzoyMyAtMDMwMA==
   date_gmt: !binary |-

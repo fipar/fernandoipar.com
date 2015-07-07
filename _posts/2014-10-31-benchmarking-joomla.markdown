@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2014/10/31/benchmarking-joomla/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Benchmarking Joomla
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 331
-wordpress_url: http://fernandoipar.com/?p=331
 date: !binary |-
   MjAxNC0xMC0zMSAxNDoxNjo0NSAtMDIwMA==
 date_gmt: !binary |-

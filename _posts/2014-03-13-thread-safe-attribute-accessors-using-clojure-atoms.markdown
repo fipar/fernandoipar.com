@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2014/03/13/thread-safe-attribute-accessors-using-clojure-atoms/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: thread safe attribute accessors for ruby classes, using clojure Atoms
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 318
-wordpress_url: http://fernandoipar.com/?p=318
 date: !binary |-
   MjAxNC0wMy0xMyAyMjowMjozMCAtMDMwMA==
 date_gmt: !binary |-
@@ -33,7 +27,6 @@ comments:
   author: thread safe accessors for ruby classes using clojure atoms, now packaged
     as gem |
   author_email: ''
-  author_url: http://fernandoipar.com/2014/03/17/thread-safe-accessors-for-ruby-classes-using-clojure-atoms-now-packaged-as-gem/
   date: !binary |-
     MjAxNC0wMy0xNyAyMDoxMTozMCAtMDMwMA==
   date_gmt: !binary |-

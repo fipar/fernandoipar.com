@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2013/11/19/rmysql-basics/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: RMySQL basics
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 289
-wordpress_url: http://fernandoipar.com/?p=289
 date: !binary |-
   MjAxMy0xMS0xOSAxNzozMToyMyAtMDIwMA==
 date_gmt: !binary |-
@@ -29,7 +23,6 @@ comments:
 - id: 239
   author: fernando
   author_email: 
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAxMy0xMi0wMiAxOToyNToyOCAtMDIwMA==
   date_gmt: !binary |-

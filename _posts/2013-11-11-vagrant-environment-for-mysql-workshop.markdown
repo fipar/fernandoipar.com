@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2013/11/11/vagrant-environment-for-mysql-workshop/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Vagrant environment for MySQL Workshop
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 272
-wordpress_url: http://fernandoipar.com/?p=272
 date: !binary |-
   MjAxMy0xMS0xMSAxNDoyMjoyOCAtMDIwMA==
 date_gmt: !binary |-

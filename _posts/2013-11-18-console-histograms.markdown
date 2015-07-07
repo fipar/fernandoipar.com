@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2013/11/18/console-histograms/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Console histograms
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 280
-wordpress_url: http://fernandoipar.com/?p=280
 date: !binary |-
   MjAxMy0xMS0xOCAxMzoxNjowNCAtMDIwMA==
 date_gmt: !binary |-

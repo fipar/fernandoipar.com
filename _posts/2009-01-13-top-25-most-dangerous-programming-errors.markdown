@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/01/13/top-25/most-dangerous-programming-errors/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Top 25 most dangerous programming errors
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 36
-wordpress_url: http://fernandoipar.com/?p=36
 date: !binary |-
   MjAwOS0wMS0xMyAxMzo1MTozMiAtMDIwMA==
 date_gmt: !binary |-

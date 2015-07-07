@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/06/17/iptables-trick-to-limit-concurrent-tcp-connections/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: iptables trick to limit concurrent tcp connections
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 173
-wordpress_url: http://fernandoipar.com/?p=173
 date: !binary |-
   MjAwOS0wNi0xNyAwOTo1ODoxMCAtMDMwMA==
 date_gmt: !binary |-
@@ -42,7 +36,6 @@ comments:
 - id: 77
   author: fernando
   author_email: mail@fernandoipar.com
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAwOS0wOC0xOCAxMDoyMToxNSAtMDMwMA==
   date_gmt: !binary |-

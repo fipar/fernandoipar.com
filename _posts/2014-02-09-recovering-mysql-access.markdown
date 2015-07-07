@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2014/02/09/recovering-mysql-access/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Recovering MySQL access
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 310
-wordpress_url: http://fernandoipar.com/?p=310
 date: !binary |-
   MjAxNC0wMi0wOSAxMTozMzo0NyAtMDIwMA==
 date_gmt: !binary |-

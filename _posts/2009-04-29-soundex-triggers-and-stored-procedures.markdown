@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/04/29/soundex-triggers-and-stored-procedures/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: SOUNDEX(), triggers, and stored procedures
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 166
-wordpress_url: http://fernandoipar.com/?p=166
 date: !binary |-
   MjAwOS0wNC0yOSAyMToxNDo1MSAtMDMwMA==
 date_gmt: !binary |-

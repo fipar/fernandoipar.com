@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/02/04/generating-random-salts-from-bash/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Generating random salts from bash
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 86
-wordpress_url: http://fernandoipar.com/?p=86
 date: !binary |-
   MjAwOS0wMi0wNCAyMToxOTo1NyAtMDIwMA==
 date_gmt: !binary |-

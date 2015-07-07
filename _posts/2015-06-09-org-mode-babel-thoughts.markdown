@@ -3,17 +3,13 @@ layout: post
 redirect_from:
   - 2015/06/08/org-mode-babel-thoughts/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Some thoughts on org-mode/babel 
-author:
-  display_name: fernando
-  login: fernando
-  email:
-  url: http://fernandoipar.com
+author: Fernando Ipar
 author_login: fernando
 author_email:
-author_url: http://fernandoipar.com
 categories:
 - programming
 tags:

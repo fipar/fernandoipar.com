@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/01/09/scriptlance-for-musicians/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Scriptlance for musicians?
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 14
-wordpress_url: http://fernandoipar.com/?p=14
 date: !binary |-
   MjAwOS0wMS0wOSAwMTo0NDozMCAtMDIwMA==
 date_gmt: !binary |-

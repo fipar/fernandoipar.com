@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/04/21/extending-procedure_analyse/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Extending procedure_analyse
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 163
-wordpress_url: http://fernandoipar.com/?p=163
 date: !binary |-
   MjAwOS0wNC0yMSAxNDowNjoyNiAtMDMwMA==
 date_gmt: !binary |-
@@ -39,7 +33,6 @@ comments:
 - id: 47
   author: Fernando Ipar
   author_email: 
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAwOS0wNC0yMiAwMTo0OToxMyAtMDMwMA==
   date_gmt: !binary |-
@@ -66,7 +59,6 @@ comments:
 - id: 49
   author: Fernando Ipar
   author_email: 
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAwOS0wNC0yMiAwMjozMzoyMCAtMDMwMA==
   date_gmt: !binary |-

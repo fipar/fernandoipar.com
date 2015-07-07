@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2011/03/10/piping-data-to-multiple-processes/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Piping data to multiple processes
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 216
-wordpress_url: http://fernandoipar.com/?p=216
 date: !binary |-
   MjAxMS0wMy0xMCAwMjowMDowNiAtMDIwMA==
 date_gmt: !binary |-

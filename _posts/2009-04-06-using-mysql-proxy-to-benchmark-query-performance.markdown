@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/04/06/using-mysql-proxy-to-benchmark-query-performance/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Using MySQL Proxy to benchmark query performance
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 139
-wordpress_url: http://fernandoipar.com/?p=139
 date: !binary |-
   MjAwOS0wNC0wNiAwOToyMDoyOCAtMDMwMA==
 date_gmt: !binary |-
@@ -70,7 +64,6 @@ comments:
 - id: 40
   author: fernando
   author_email: mail@fernandoipar.com
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAwOS0wNC0xMSAwMDo0OTowNiAtMDMwMA==
   date_gmt: !binary |-

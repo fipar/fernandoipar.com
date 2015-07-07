@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/08/12/indexing-text-columns-in-mysql/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Indexing text columns in MySQL
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 178
-wordpress_url: http://fernandoipar.com/?p=178
 date: !binary |-
   MjAwOS0wOC0xMiAyMDowNzoyOCAtMDMwMA==
 date_gmt: !binary |-
@@ -41,7 +35,6 @@ comments:
 - id: 71
   author: Generating data with dbmonster | Fernando Ipar
   author_email: ''
-  author_url: http://fernandoipar.com/2009/08/14/generating-data-with-dbmonster/
   date: !binary |-
     MjAwOS0wOC0xNCAxODowMzoxOSAtMDMwMA==
   date_gmt: !binary |-

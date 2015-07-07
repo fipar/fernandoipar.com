@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/01/10/running-commands-from-the-shell-with-a-timeout/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Running commands from the shell with a timeout
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 20
-wordpress_url: http://fernandoipar.com/?p=20
 date: !binary |-
   MjAwOS0wMS0xMCAwMDoyMTo0OSAtMDIwMA==
 date_gmt: !binary |-

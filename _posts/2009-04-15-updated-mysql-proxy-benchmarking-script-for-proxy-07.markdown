@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/04/15/updated-mysql-proxy-benchmarking-script-for-proxy-07/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Updated mysql-proxy benchmarking script (for proxy 0.7)
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 150
-wordpress_url: http://fernandoipar.com/?p=150
 date: !binary |-
   MjAwOS0wNC0xNSAxOToyNzozMSAtMDMwMA==
 date_gmt: !binary |-

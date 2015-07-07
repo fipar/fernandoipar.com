@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/02/02/erlybird-0170/released/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Erlybird 0.17.0 released
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 77
-wordpress_url: http://fernandoipar.com/?p=77
 date: !binary |-
   MjAwOS0wMi0wMiAwMDowMjowMiAtMDIwMA==
 date_gmt: !binary |-

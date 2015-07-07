@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/02/27/highbase-beta-094/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: highbase beta-0.9.4
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 106
-wordpress_url: http://fernandoipar.com/?p=106
 date: !binary |-
   MjAwOS0wMi0yNyAyMTowMTowMyAtMDIwMA==
 date_gmt: !binary |-

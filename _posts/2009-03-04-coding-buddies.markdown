@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/03/04/coding-buddies/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Coding Buddies
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 110
-wordpress_url: http://fernandoipar.com/?p=110
 date: !binary |-
   MjAwOS0wMy0wNCAxNzo1MDozMiAtMDIwMA==
 date_gmt: !binary |-

@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/01/14/coffee-may-or-may-not-cause-hallucinations/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Coffee May or May not cause hallucinations
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 40
-wordpress_url: http://fernandoipar.com/?p=40
 date: !binary |-
   MjAwOS0wMS0xNCAyMzowNjo1NiAtMDIwMA==
 date_gmt: !binary |-

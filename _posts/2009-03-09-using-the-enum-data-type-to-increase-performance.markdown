@@ -3,17 +3,12 @@ layout: post
 redirect_from:
   - 2009/03/09/using-the-enum-data-type-to-increase-performance/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Using the ENUM data type to increase performance
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 excerpt: ! "While going through the DATA TYPES section of the Certification Study
   Guide, I was refreshed of the ENUM datatype, which I rarely use. \r\n\r\nI usually
   create individual tables for enumerations, so that new values can be added with
@@ -21,7 +16,6 @@ excerpt: ! "While going through the DATA TYPES section of the Certification Stud
   I got to think about the performance issues involved in all that joining, and how
   could an ENUM column improve a select. "
 wordpress_id: 119
-wordpress_url: http://fernandoipar.com/?p=119
 date: !binary |-
   MjAwOS0wMy0wOSAxMTo0ODo0NCAtMDMwMA==
 date_gmt: !binary |-
@@ -44,7 +38,6 @@ comments:
 - id: 111
   author: Fernando
   author_email: 
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAwOS0xMS0xMyAxMDo1Mzo0MSAtMDIwMA==
   date_gmt: !binary |-

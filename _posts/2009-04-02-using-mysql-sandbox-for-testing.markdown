@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/04/02/using-mysql-sandbox-for-testing/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Using MySQL sandbox for testing
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 136
-wordpress_url: http://fernandoipar.com/?p=136
 date: !binary |-
   MjAwOS0wNC0wMiAyMToyODowNSAtMDMwMA==
 date_gmt: !binary |-

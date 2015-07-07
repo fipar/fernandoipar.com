@@ -3,21 +3,16 @@ layout: post
 redirect_from:
   - 2015/04/16/migrating-to-jekyll/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Migrating to jekyll 
-author:
-  display_name: fernando
-  login: fernando
-  email:
-  url: http://fernandoipar.com
 author_login: fernando
 author_email:
-author_url: http://fernandoipar.com
 wordpress_id: 337
-wordpress_url: http://fernandoipar.com/?p=337
 categories:
 - MySQL
+- PlanetMySQL
 tags:
 - MySQL
 ---

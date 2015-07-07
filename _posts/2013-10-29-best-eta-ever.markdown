@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2013/10/29/best-eta-ever/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Best ETA ever
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 264
-wordpress_url: http://fernandoipar.com/?p=264
 date: !binary |-
   MjAxMy0xMC0yOSAwOToyMjo0OCAtMDIwMA==
 date_gmt: !binary |-

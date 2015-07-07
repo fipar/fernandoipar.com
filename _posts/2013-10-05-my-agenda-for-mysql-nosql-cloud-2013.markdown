@@ -3,17 +3,12 @@ layout: post
 redirect_from:
   - 2013/10/05/my-agenda-for-mysql-nosql-cloud-2013/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: My agenda for MySQL NoSQL Cloud 2013
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 excerpt: ! "On October 15 and 16 I'll take the ferry to be at the MySQL NoSQL Cloud
   conference in Buenos Aires, and the schedule looks really nice so far. I think it's
   a great opportunity for people in this region to get up to date with what's going
@@ -22,7 +17,6 @@ excerpt: ! "On October 15 and 16 I'll take the ferry to be at the MySQL NoSQL Cl
   as in some cases it's difficult to pick one track and miss the other one, but for
   now, here are some highlighted sessions I'm definitely attending:"
 wordpress_id: 257
-wordpress_url: http://fernandoipar.com/?p=257
 date: !binary |-
   MjAxMy0xMC0wNSAxMjoyNTowOCAtMDMwMA==
 date_gmt: !binary |-
@@ -57,7 +51,6 @@ comments:
 - id: 191
   author: fernando
   author_email: mail@fernandoipar.com
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAxMy0xMC0wNyAxMzoyNjozMSAtMDIwMA==
   date_gmt: !binary |-
@@ -68,7 +61,6 @@ comments:
 - id: 192
   author: fernando
   author_email: mail@fernandoipar.com
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAxMy0xMC0wNyAxMzoyODoyNCAtMDIwMA==
   date_gmt: !binary |-

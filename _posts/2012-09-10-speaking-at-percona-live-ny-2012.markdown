@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2012/09/10/speaking-at-percona-live-ny-2012/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Presenting at Percona Live NY 2012
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 226
-wordpress_url: http://fernandoipar.com/?p=226
 date: !binary |-
   MjAxMi0wOS0xMCAxOTo1NToyNSAtMDMwMA==
 date_gmt: !binary |-

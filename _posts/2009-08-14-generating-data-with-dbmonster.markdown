@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/08/14/generating-data-with-dbmonster/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Generating data with dbmonster
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 182
-wordpress_url: http://fernandoipar.com/?p=182
 date: !binary |-
   MjAwOS0wOC0xNCAxODowMjo1NiAtMDMwMA==
 date_gmt: !binary |-
@@ -40,7 +34,6 @@ comments:
 - id: 74
   author: fernando
   author_email: mail@fernandoipar.com
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAwOS0wOC0xNiAxMzozMDoyNyAtMDMwMA==
   date_gmt: !binary |-
@@ -54,7 +47,6 @@ comments:
 - id: 78
   author: fernando
   author_email: mail@fernandoipar.com
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAwOS0wOC0xOCAxMTowMzowMiAtMDMwMA==
   date_gmt: !binary |-

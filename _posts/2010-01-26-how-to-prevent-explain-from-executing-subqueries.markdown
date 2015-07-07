@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2010/01/26/how-to-prevent-explain-from-executing-subqueries/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: how to prevent explain from executing subqueries
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 194
-wordpress_url: http://fernandoipar.com/?p=194
 date: !binary |-
   MjAxMC0wMS0yNiAxMDo0MzowMyAtMDIwMA==
 date_gmt: !binary |-
@@ -41,7 +35,6 @@ comments:
 - id: 116
   author: Fernando Ipar
   author_email: 
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAxMC0wMS0yNyAxNjowNToxNiAtMDIwMA==
   date_gmt: !binary |-

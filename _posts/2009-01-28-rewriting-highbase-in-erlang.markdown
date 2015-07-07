@@ -3,19 +3,13 @@ layout: post
 redirect_from:
   - 2009/01/28/rewriting-highbase-in-erlang/
 
+author: Fernando Ipar
 status: publish
 published: true
 title: Rewriting Highbase in Erlang
-author:
-  display_name: fernando
-  login: fernando
-  email: 
-  url: http://fernandoipar.com
 author_login: fernando
 author_email: 
-author_url: http://fernandoipar.com
 wordpress_id: 70
-wordpress_url: http://fernandoipar.com/?p=70
 date: !binary |-
   MjAwOS0wMS0yOCAwMToyODo0MiAtMDIwMA==
 date_gmt: !binary |-
@@ -42,7 +36,6 @@ comments:
 - id: 6
   author: fernando
   author_email: mail@fernandoipar.com
-  author_url: http://fernandoipar.com
   date: !binary |-
     MjAwOS0wMS0yOSAxMDo0MDozMSAtMDIwMA==
   date_gmt: !binary |-
