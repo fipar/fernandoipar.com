@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: /assets/images/persian_plum.jpg
+image: /assets/images/persian_plum_small.jpg
 permalink: /about/
 ---
 
