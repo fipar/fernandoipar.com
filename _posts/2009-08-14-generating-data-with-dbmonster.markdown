@@ -70,8 +70,7 @@ comments:
   content: ! '[...] Generating data with dbmonster on Planet MySQL [...]'
 ---
 <p>
-In my <a href="http://fernandoipar.com/2009/08/12/indexing-text-columns-in-mysql/">last post</a> I included some sample data which was useful for playing around with queries (once I published it,<br />
-I realized it made my post look like some form of keyword stuffing, fortunately I don't use adsense on my site so I hope I'm free of any suspicion :D).</p>
+In my <a href="http://fernandoipar.com/2009/08/12/indexing-text-columns-in-mysql/">last post</a> I included some sample data which was useful for playing around with queries </p>
 <p>
 That sample data was generated with dbmonster, a nice tool I discovered recently which comes in handy when you need to populate a database table to test your queries, the engine, schema, etc.</p>
 <p>
