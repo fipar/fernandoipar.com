@@ -25,7 +25,6 @@ More info can be found here:
 * [github](http://github.com/fipar)
 * [launchpad](https://launchpad.net/~fipar)
 * [ohloh](http://www.ohloh.net/accounts/nandix)
-* [sourceforge](http://sourceforge.net/users/fipar/) (this is no
-  longer maintained, only here for the sake of completeness)
+* [sourceforge](http://sourceforge.net/users/fipar/) 
 
 This place is where I blog about software engineering, art, music, and anything I feel like.
