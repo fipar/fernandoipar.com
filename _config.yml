@@ -4,6 +4,7 @@ highlighter: pygments
 gems:
   - jemoji
   - jekyll-redirect-from
+  - jekyll-paginate
 
   
 # Site settings
