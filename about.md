@@ -5,7 +5,12 @@ image: /assets/images/persian_plum_small.jpg
 permalink: /about/
 ---
 
-I work as a Consultant at [Percona](https://www.percona.com/about-us/our-team/fernando-ipar).
+I currently work as Principal Consultant at
+[Pythian](https://www.pythian.com). 
+Before that, I worked many roles at
+[Percona](https://www.percona.com/about-us/our-team/fernando-ipar) for
+7 years, and worked
+as a freelancer and small business owner for almost 10.
 I'm also an amateur musician, and a very happy husband and dad.
 
 You can contact me at [linkedin](http://www.linkedin.com/in/fipar)
