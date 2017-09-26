@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: /assets/images/persian_plum_small.jpg
+image: /assets/images/manuella.jpg
 permalink: /about/
 ---
 
@@ -22,7 +22,7 @@ confused if you follow them expecting to get updates from me.
 
 I am on Google+ but I only use it to share pictures with family members. 
 
-I've been involved in the Open Soure community as a user since 1997,
+I've been involved in the Open Source community as a user since 1997,
 and as programmer since 2002, contributing to a few projects, and leading some of my own.
 
 More info can be found here: 
@@ -33,3 +33,5 @@ More info can be found here:
 * [sourceforge](http://sourceforge.net/users/fipar/) 
 
 This place is where I blog about software engineering, art, music, and anything I feel like.
+
+The opinions expressed here are mine and do not reflect those of any clients or employers, past, present or future.  
