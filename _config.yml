@@ -10,7 +10,7 @@ plugins:
 # Site settings
 title: "Fernando Ipar"
 description: >  # this means to ignore newlines until "email:"
-   Thoughts on technology, databases, and whatever comes to mind 
+   "Tell my wife I love her very much, she knows"
 
 email: fipar (at) acm (dot) org 
 #blog logo
