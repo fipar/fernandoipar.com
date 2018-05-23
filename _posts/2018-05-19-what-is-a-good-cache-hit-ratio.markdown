@@ -31,7 +31,7 @@ What that means to me (and I am aware this is my interpretation of other people'
 
 Let's say the hit rate is 60% hits over an hour. It does not tell us which queries were hits and which misses, nor what is the range of response time for a given query fingerprint (to borrow [pt-query-digest's](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html) term). Without this info, it does not tell us if the query cache is beneficial for the workload or not. The same applies for a hit rate of 90% hits over an hour, by the way, as explained by Peter Zaitsev for memcached in [this post](https://www.percona.com/blog/2010/05/19/beyond-great-cache-hit-ratio/). 
 
-The reason I think this is not a valid question, at least not in a broad performance optimization/application health check context is that it tells us nothing about the things that actually matter about a database: is work being done at the rate and response time the client (or users) expect? Quoting [Cary Millsap](http://shop.oreilly.com/product/9780596005276.do), there are three only three acceptable units for (database) statistics that make sense to end users:
+The reason I think this is not a valid question, at least not in a broad performance optimization/application health check context is that it tells us nothing about the things that actually matter about a database: is work being done at the rate and response time the client (or users) expect? Quoting [Cary Millsap](http://shop.oreilly.com/product/9780596005276.do), there are only three acceptable units for (database) statistics that make sense to end users:
 
 - your local currency
 
