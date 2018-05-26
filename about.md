@@ -8,7 +8,7 @@ permalink: /about/
 I currently work as Principal Consultant at
 [Pythian](https://www.pythian.com). 
 Before that, I worked many roles at
-[Percona](https://www.percona.com/about-us/our-team/fernando-ipar) for
+[Percona](https://www.percona.com) for
 7 years, and worked
 as a freelancer and small business owner for almost 10.
 I'm also an amateur musician, and a very happy husband and dad.
