@@ -7,6 +7,7 @@ permalink: /presentations/
 
 This page has slides and/or related material for some of the presentations I have given: 
 
+* [No MySQL or MongoDB? No Problem! How to Extend PMM's Functionality to Monitor Other DBMSs](https://www.percona.com/live/18/sites/default/files/slides/No%20MySQL%20or%20MongoDB_%20No%20Problem!%20How%20to%20Extend%20PMM_s%20Functionality%20to%20Monitor%20Other%20DBMSs.pdf) (Prepared with Agustin Gallego, presented by Agustin, Percona Live Santa Clara 2018)
 * [CockroachDB: A database for the zombie apocalypse](/assets/presentations/cockroachdb_2017.pdf) (Montevideo Open Source Persistence Meetup, 2017).
 * [Managing farms of MySQL servers with MySQL Fabric](https://drive.google.com/file/d/0B9aWp1H-a-XKWEhnV25WRll5UkU/view?usp=sharing) (Percona University Montevideo, 2014).
 * [Offloading MySQL with Redis](https://drive.google.com/file/d/0B9aWp1H-a-XKMXNEMXhQbF9iVWM/view?usp=sharing) (Percona University Montevideo, 2014).
