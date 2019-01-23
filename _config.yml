@@ -17,7 +17,8 @@ email: fipar (at) acm (dot) org
 logo: "/assets/images/df_logo.jpg"
 # blog cover
 #cover: "https://www.dropbox.com/s/ei6zmkeypujmwfj/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg" 
-cover: "/assets/images/horizon.jpg"
+#cover: "/assets/images/horizon.jpg"
+cover: "/assets/images/vivi_papas.jpg"
 
 name: 'Fernando Ipar'
 author: 'Fernando Ipar'
