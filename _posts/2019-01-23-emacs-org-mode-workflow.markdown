@@ -53,8 +53,11 @@ By the end of this process, I have a better picture of how my day (and upcoming 
 As mentioned, I have a Todo.org file, which I call my "global" file. It holds my Inbox, my Personal heading (where I file anything personal that doesn't merit a file of its own) and a Trashcan. I borrowed the idea of a Trashcan for ideas as opposed to just deleting the "bad ones" right away from Robert Pirsig's description of his workflow in [Lila](https://en.wikipedia.org/wiki/Lila:_An_Inquiry_into_Morals). He used cards and my analogy is an org-mode heading (or subheading, etc) is the equivalent to one of his cards. 
 
 Besides this, I have some things in their own org file. Examples include: 
+
 - Community.org to track work on community contributions, including ideas of the "would be nice to do" type, but also work with (usually soft) deadlines on bug reports and blog posts. 
+
 - One file per each large-enough project I'm involved in at the moment, and/or for each active client. When going through my email, if I have a request from a client, after capturing it I will refile it to the appropriate file. 
+
 - On-demand ephemeral files for things that I need on the spot. Say I need to hop on a call on short notice. I used to add a headline to an existing file and work there. Now I just create a file only for this, work there, and if needed, refile whatever is important to another place when the call is done. Otherwise, it's easy to move the file to the Attic and be done with it. One of the goals of my setup is that I can both minimize "waste", which I define as things that I don't need and clutter my attention, while still letting me keep track of where I've been (something important so you have a decent chance of getting to where you're going). I refer to this exit-target as Attic instead of Trashcan because I typically don't delete things, unless I'm done with a client and the contract requires that I remove all information about this. Otherwise, having a history of my work as back as I have been doing it is quite useful to plan new things. Org-mode is all about text files so with today's drives, there's no way you can ever have disk-space problems because you have too many org files. 
 
 ## My snippets 
