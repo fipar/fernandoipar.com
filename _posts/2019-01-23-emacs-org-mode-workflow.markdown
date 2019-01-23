@@ -1,8 +1,8 @@
 ---
 layout: post
 redirect_from:
-  - 2023/01/23/my-emacs-org-mode-workflow/
-  - 2023/01/23/my-emacs-org-mode-workflow.html
+  - 2019/01/23/my-emacs-org-mode-workflow/
+  - 2019/01/23/my-emacs-org-mode-workflow.html
 
 author: Fernando Ipar
 status: publish
