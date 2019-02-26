@@ -3,6 +3,7 @@ layout: post
 redirect_from:
   - 2019/01/23/my-emacs-org-mode-workflow/
   - 2019/01/23/my-emacs-org-mode-workflow.html
+# image: /assets/images/ginko.jpg
 
 author: Fernando Ipar
 status: publish

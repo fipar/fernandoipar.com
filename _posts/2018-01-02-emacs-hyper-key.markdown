@@ -3,6 +3,7 @@ layout: post
 redirect_from:
   - 2018/01/02/emacs-hyper-key/
   - 2018/01/02/emacs-hyper-key.html
+image: /assets/images/emacs-hyper-key.png
 
 author: Fernando Ipar
 status: publish
