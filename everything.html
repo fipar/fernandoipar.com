@@ -1,0 +1,10 @@
+---
+layout: default
+permalink: /everything/
+---
+<main class="content" role="main">
+<p>This is a list of all posts on this blog, in chronological order (ORDER BY date_published DESC). This blog went through geeklog, wordpress, and now jekyll, and in the process comments and images were lost. This is just a disclaimer in case you read one post and find that it is missing an image. </p>
+{% for post in site.posts %}
+              <p><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></p>
+{% endfor %}
+</main>
