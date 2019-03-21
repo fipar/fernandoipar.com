@@ -45,6 +45,7 @@ comments:
     timeout is coming with coreutils, and it seems you're the contributor :) Any ideas
     for a date?"
 ---
+<p><b>EDIT: </b>This can be safely replaced by <a href="http://man7.org/linux/man-pages/man1/timeout.1.html">timeout</a></p>
 <p>Here's an improved version of the safecmd script. This one doesn't always wait for $timeout seconds even if the command you're running exits successfully. In that case, it kills the monitor script and ends at the proper time. </p>
 <p>Here's the code: </p>
 <pre>

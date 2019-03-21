@@ -22,6 +22,7 @@ tags:
 - bash
 comments: []
 ---
+<p><b>EDIT: </b>This can be safely replaced by <a href="http://man7.org/linux/man-pages/man1/timeout.1.html">timeout</a></p>
 <p>Sometimes, in a shell script, you need to run a command that might go on forever (or an amount of time long enough to be called forever) due to poor coding of the software and wrong external conditions (network down or overloaded, overloaded system, a changed private key, etc).</p>
 <p>In order to avoid this situations, here's a small shell script that will execute any command with a guaranteed timeout:</p>
 <pre>#!/bin/bash
