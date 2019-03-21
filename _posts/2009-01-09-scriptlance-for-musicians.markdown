@@ -5,7 +5,7 @@ redirect_from:
 
 author: Fernando Ipar
 status: publish
-published: true
+published: false
 title: Scriptlance for musicians?
 author_login: fernando
 author_email: 
