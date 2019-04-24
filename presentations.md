@@ -7,6 +7,7 @@ permalink: /presentations/
 
 This page has slides and/or related material for some of the presentations I have given: 
 
+* [TiDB 101](/assets/presentations/TiDB101.pdf) (Percona University Montevideo 2019).
 * [No MySQL or MongoDB? No Problem! How to Extend PMM's Functionality to Monitor Other DBMSs](https://www.percona.com/live/18/sites/default/files/slides/No%20MySQL%20or%20MongoDB_%20No%20Problem!%20How%20to%20Extend%20PMM_s%20Functionality%20to%20Monitor%20Other%20DBMSs.pdf) (Prepared with Agustin Gallego, presented by Agustin, Percona Live Santa Clara 2018)
 * [CockroachDB: A database for the zombie apocalypse](/assets/presentations/cockroachdb_2017.pdf) (Montevideo Open Source Persistence Meetup, 2017).
 *  MongoDB: A Primer for MySQL DBAs (DataOps Latam 2015, no slides available).  
