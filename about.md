@@ -5,10 +5,9 @@ image: /assets/images/manuella.jpg
 permalink: /about/
 ---
 
-I currently work as Data Team Lead at 
-[Perceptyx](https://www.perceptyx.com). 
+I work with and on Open Source databases.  
+Among other places, I have worked at [Pythian](https://www.pythian.com), and [Percona](https://www.percona.com).
 Before that, I worked as a Principal Consultant at [Pythian](https://www.pythian.com) for 3 years, many roles at
-[Percona](https://www.percona.com) for 7 years, and as a freelancer and small business owner for almost 10.
 I'm also an amateur musician, and a very happy husband and dad.
 
 You can contact me at [linkedin](http://www.linkedin.com/in/fipar)
