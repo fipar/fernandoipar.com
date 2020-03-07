@@ -5,9 +5,8 @@ image: /assets/images/manuella.jpg
 permalink: /about/
 ---
 
-I work with and on Open Source databases.  
+I work with and on Open Source databases. 
 Among other places, I have worked at [Pythian](https://www.pythian.com), and [Percona](https://www.percona.com).
-Before that, I worked as a Principal Consultant at [Pythian](https://www.pythian.com) for 3 years, many roles at
 I'm also an amateur musician, and a very happy husband and dad.
 
 You can contact me at [linkedin](http://www.linkedin.com/in/fipar)
