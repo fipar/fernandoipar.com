@@ -2,8 +2,8 @@
 layout: post
 title: emacs config update
 redirect_from:
-- 2023/09/11/documenting-emacs-hyper-shortcuts/
-- 2023/09/11/documenting-emacs-hyper-shortcuts.html
+- 2023/09/11/emacs-config-update/
+- 2023/09/11/emacs-config-update.html
 image: /assets/images/model-100.jpg
 
 author: Fernando Ipar
