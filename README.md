@@ -1,3 +1,5 @@
+This repository has been archived because I'm just manually updating html at my site now.
+
 My personal blog.
 
 Theme is [mediator](https://github.com/dirkfabisch/mediator) with
